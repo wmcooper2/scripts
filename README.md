@@ -1,15 +1,14 @@
 # Machine Setup Program
-This is a CLI tool.
+This is a collection of simple scripts.
 
 ### Purpose
-To maintain a consistency across all workstations and devices.
+To maintain a consistency across all workstations and devices with my preferred settings.
 
 ### Operation
-In the program's root dir, type `./run`.
+In the program's root dir, run an executable with `./executable`.
 
 ### Developer Notes
 This program:
-    * Copies files over ssh
-    * Replaces `.vimrc` and `.bash_profile` in the home dir
-    * Fetches (updates/syncs) all git repositories
-    * Creates a command in usr/local/bin
+    * Copies files over ssh, from the src machine's $HOME
+    * Replaces `.vimrc` and `.bash_profile` in $HOME
+    * Recursively copies `.vim/` to $HOME
