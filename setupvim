@@ -1,0 +1,6 @@
+#!/bin/bash
+
+# make sure to pass the pi-node ($pi1, $pi2, etc)
+scp -r $HOME/.vim/ $1:/home/pi
+scp $HOME/.vimrc $1:/home/pi
+echo "Finished"
