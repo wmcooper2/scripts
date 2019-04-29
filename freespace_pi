@@ -1,0 +1,9 @@
+#!/bin/bash
+# Cleans up some free space on the micro SD card.
+# Removes old, unecessary files.
+
+sudo apt-get purge wolfram-engine libreoffice* scratch -y
+sudo apt-get clean
+sudo apt-get autoremove -y
+sudo apt autoremove
+df -BM

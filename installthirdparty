@@ -1,0 +1,32 @@
+#!/bin/bash
+
+# don't forget to copy .vim and .bash_profile to new machine
+
+# MACOS
+# brew install tree
+# brew cask install macdown
+# pip3 install mypy
+# pip3 install pycodestyle
+# pip3 install pydoc
+# pip3 install pyenv
+# pip3 install pyflakes
+# pip3 install pylint
+# pip3 install radon
+# pip3 install tabulate
+# pip3 install wxpython
+
+
+# GNU/LINUX
+# sudo apt-get install usbmount
+
+
+# THINKPAD
+# sudo apt-get install openssh-server -y
+# sudo apt-get install git -y
+# sudo apt install python3-pip -y
+# sudo apt-get install python3.7 -y
+# sudo apt-get install threadsafe-tkinter -y
+# sudo apt-get install python3-tk -y
+
+# RASPBERRY PI
+# /opt/vc/bin/vcgencmd measure_temp

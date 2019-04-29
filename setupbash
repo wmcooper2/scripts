@@ -1,2 +1,0 @@
-#!/bin/bash
-scp $HOME/.bash_profile $1:/home/pi

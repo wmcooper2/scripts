@@ -1,0 +1,8 @@
+
+
+def some_funct(some_args):
+    """some_doc. Returns some_stuff."""
+    some_stuff = None
+    return some_stuff
+
+

@@ -1,0 +1,9 @@
+#!/bin/bash
+# clear the cache to improve speed.
+# sudo sh -c "echo 1 > /proc/sys/vm/drop_caches"      # page cache only
+# sudo sh -c "echo 2 > /proc/sys/vm/drop_caches"    # dentries and inodes
+sudo sh -c "echo 3 > /proc/sys/vm/drop_caches"    # page cache, dentries and inodes
+
+
+# sync flushes the buffer.
+# writing a blank line to /proc/sys/vm/drop_caches will clear the cache file.

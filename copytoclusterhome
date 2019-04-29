@@ -1,0 +1,6 @@
+#!/bin/bash
+# copy file to pi-node home dirs
+scp $1 pi@192.168.1.11:/home/pi
+scp $1 pi@192.168.1.12:/home/pi
+scp $1 pi@192.168.1.13:/home/pi
+scp $1 pi@192.168.1.14:/home/pi
