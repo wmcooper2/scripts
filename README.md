@@ -12,3 +12,5 @@ This program:
   * Copies files over ssh, from the src machine's $HOME
   * Replaces `.vimrc` and `.bash_profile` in $HOME
   * Recursively copies `.vim/` to $HOME
+
+![New Machine Setup Scripts](screenshot.png)
