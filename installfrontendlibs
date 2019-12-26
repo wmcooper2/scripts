@@ -1,0 +1,60 @@
+# BASICS
+npm install --save bootstrap
+npm install --save typescript@>=2.8.0
+npm install --save jquery@1.9.1
+npm install --save popper.js@^1.14.7
+
+#npm install --save marked
+# https://www.npmjs.com/package/marked
+
+# BABEL
+#npm install --save babel-cli babel-core --save-dev
+#npm install --save babel-preset-es2015 --save-dev
+# https://ccoenraets.github.io/es6-tutorial/setup-babel/
+# https://babeljs.io/docs/en/env/
+
+#npm install --save-dev @babel/plugin-transform-react-jsx
+# https://babeljs.io/docs/en/babel-plugin-transform-react-jsx
+#npx babel-upgrade
+
+# REACT ICONS
+npm install react-icons --save
+#import {
+#  FaGithub,
+#  FaGraduationCap,
+#  FaUserTie,
+#  FaLinkedin,
+#  FaFreeCodeCamp,
+#  FaCalculator,
+#  FaMeetup,
+#  FaCodepen,
+#  FaCode
+#} from "react-icons/fa";
+
+# FONT AWESOME
+npm install --save font-awesome
+npm i --save @fortawesome/fontawesome-svg-core
+npm i --save @fortawesome/free-solid-svg-icons
+npm i --save @fortawesome/free-brands-svg-icons
+npm i --save @fortawesome/react-fontawesome
+
+# don't forget to...
+# - import "bootstrap/dist/css/bootstrap.css";
+# - delete;
+#	logo.svg 
+#	public/logo.*
+# - rename Title tag in public/index.html
+
+# This way doesn't work:
+#    <!-- Font Awesome key-->
+#    <script src="https://kit.fontawesome.com/4b2f315f1d.js"></script>
+
+# This works:
+# import { faSearch } from "@fortawesome/free-solid-svg-icons";
+# import { fab } from '@fortawesome/free-brands-svg-icons'
+# import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+# <FontAwesomeIcon icon={faSearch} />
+
+# FINAL CHECK
+#npm audit fix --force
+npm audit
