@@ -1,0 +1,2 @@
+# restart mongo database
+sudo /opt/bitnami/ctlscript.sh restart mongodb

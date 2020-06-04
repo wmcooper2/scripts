@@ -1,0 +1,3 @@
+#list all node processes
+ps aux | grep -i node
+

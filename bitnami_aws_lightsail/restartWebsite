@@ -1,0 +1,4 @@
+#the ampersand puts the process in the background
+
+sudo kill $1
+sudo node portfolio.js &

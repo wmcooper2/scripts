@@ -1,0 +1,2 @@
+# start mongo database
+sudo /opt/bitnami/ctlscript.sh start mongodb

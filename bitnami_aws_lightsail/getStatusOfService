@@ -1,0 +1,2 @@
+#shows apache and mongo status
+sudo /opt/bitnami/ctlscript.sh status

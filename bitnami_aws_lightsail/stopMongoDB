@@ -1,0 +1,2 @@
+# stop mongo database
+sudo /opt/bitnami/ctlscript.sh stop mongodb

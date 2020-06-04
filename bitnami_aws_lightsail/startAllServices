@@ -1,0 +1,2 @@
+#starts all services 
+sudo /opt/bitnami/ctlscript.sh start

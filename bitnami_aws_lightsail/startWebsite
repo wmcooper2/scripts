@@ -1,0 +1,4 @@
+#the ampersand puts the process in the background
+#sudo node web-portfolio-server.js &
+sudo node webPortfolioServer2.js &
+
