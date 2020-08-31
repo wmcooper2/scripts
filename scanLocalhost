@@ -1,0 +1,35 @@
+#!/bin/bash
+# scan all of localhost's ports for anything open
+# save the results
+
+target=localhost
+resultsFile="detailedResults"
+
+
+declare -a portList
+portList=$(nmap -T4 -p- $target | grep -oe "^[0-9]\{,5\}")
+#echo "$(cat $portList | wc -l) Discovered ports"
+echo "Finished scanning ports 1 through 65535"
+
+
+# reset the results file
+if [ -e $resultsFile ]; then
+	rm $resultsFile
+else
+	touch $resultsFile
+fi
+
+
+# for each discovered port, scan in more depth
+while read line; do
+	# output a pretty horizontal line
+	#printf '%*s\n' "${COLUMNS:-$(tput cols)}" '' | tr ' ' -
+	echo "Digging deeper on port: $line"
+	nmap -T4 -A -p $line $target >> $resultsFile
+done < <(echo $portList | sed "s/ /\n/g")
+
+
+# remove the swap file that may be created
+if [ -e *.swp ]; then 
+	rm *.swp
+fi 
