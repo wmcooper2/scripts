@@ -9,9 +9,9 @@ To protect all of my personal data and portfolio work with backups.
 
 ## Operation
 ```bash
-# In the program's root dir, run an executable with `./executable`. Example,
+# In the program's root dir, run an executable with `./<script>`. Example,
 
-$ ./scriptName
+$ ./installpyenv
 ```
 
 ## Tech/Libraries Used
