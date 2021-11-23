@@ -1,11 +1,5 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =9
-let g:netrw_dirhist_1='/Users/wandalcooper/Programming/Github'
-let g:netrw_dirhist_2='/Users/wandalcooper/Programming/Github/lyricsearch'
-let g:netrw_dirhist_3='/Users/wandalcooper/Programming/Github/lyricsearch/src'
-let g:netrw_dirhist_4='/Users/wandalcooper/Programming/Github/musicdatabase/src'
-let g:netrw_dirhist_5='/Users/wandalcooper/Programming/Github/lyricsearch/src'
-let g:netrw_dirhist_6='/Users/wandalcooper/Programming/Github/lyricsearch'
-let g:netrw_dirhist_7='/Users/wandalcooper/Programming/Github/lyricsearch/src'
-let g:netrw_dirhist_8='/Users/wandalcooper/.vim'
-let g:netrw_dirhist_9='/Users/wandalcooper/.vim/after'
+let g:netrw_dirhistcnt =3
+let g:netrw_dirhist_3='/Users/wmcooper2/Documents/scripts'
+let g:netrw_dirhist_2='/Users/wmcooper2/Documents/webUI/backend/data'
+let g:netrw_dirhist_1='/Users/wmcooper2/Documents/webUI/data'
